@@ -1,0 +1,106 @@
+body{
+    background: #214261;
+    font-size: 10pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.auth_container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.auth_content{
+    width: 390px;
+    height: 250px;
+    background: #112130;
+    text-align: center;
+    border-radius: 5px;
+}
+.auth_content .username,.randomNumber{
+    width: 300px;
+    padding: 10pt;
+    margin-top: 20px;
+    outline: none;
+
+}
+.auth_content .auth_btn{
+    margin: 10px;
+    background: #03658b;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.auth_content .auth_btn:hover{
+    background: #000000;
+    color: aliceblue;
+    padding: 15px;
+}
+.access_token_res{
+color: aliceblue;
+}
+
+/*formulario de matricula*/
+
+.user_img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 110px;
+    background: #1d2027;
+    margin-top: 10px;
+    display: block;
+    border: 3px dashed #fff;
+}
+.input_img{
+    display: none;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #1d2027;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 450px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .form-group::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%;
+    }
+    .container input{
+        max-width: 100%;
+    }
+  }
+
+
+
+

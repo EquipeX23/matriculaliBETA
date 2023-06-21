@@ -1,0 +1,27 @@
+{
+  "name": "dskblog",
+  "version": "1.0.0",
+  "description": "Meu primeiro blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "server":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DsK-David/DsKBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "David Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DsK-David/DsKBlog/issues"
+  },
+  "homepage": "https://github.com/DsK-David/DsKBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}

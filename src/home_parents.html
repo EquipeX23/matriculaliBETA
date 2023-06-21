@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matricula</title>
+</head>
+<body>
+    <form class="form" action="/auth/matricula/new/aluno" method="post">
+        <span>Informaçoes sobre os encarregados do(a) aluno(a)/span>
+            <br>
+            <label for="student_father_name">Nome do pai:</label>
+            <br>
+        <input type="text" name="student_father_name" class="student_father_name" id="student-father" required>
+        <label for="student_mother_name">Nome da Mãe:</label>
+        <br>
+        <input type="text" name="student_mother_name" class="student_mother_name" id="student-mother"  required>
+       <label for="parents_number">Numero do encarregado de educação</label>
+        <input type="number" name="parents_number" class="parents_number" id="parents_number"  required>
+
+        <span>Informaçoes sobre documentos dos encarregados do(a) aluno(a)</span>
+        <br>
+        <label for="parents_CNI">CNI:</label>
+        <br>
+         <input type="number" name="parents_CNI" class="parents_CNI" id="cni"  required>
+         <label for="parents_NIF">NIF:</label>
+         <input type="number" name="parents_NIF" class="parents_NIF" id="cni"  required>
+        <br>
+        <button type="submit">Matricular</button>
+    </form>
+</body>
+</html>
